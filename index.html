@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="chartgenerator.js" defer></script>
+    <script src="datasaver.js" defer></script>
+    <script src="storageoperator.js" defer></script>
+    <title>Anthr Data viewer</title>
+</head>
+<body>
+    <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+
+    <input type="text" onchange="Xinputf()" class="DataX" name="DataX" id="DataX" placeholder="DataX">
+    <input type="text" onchange="Yinputf()" class="DataY" name="DataY" id="DataY" placeholder="DataY">
+    <input type="button" value="Add line" onclick="addLine()">
+
+</body>
+</html>
